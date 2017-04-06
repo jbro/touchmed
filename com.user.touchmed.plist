@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.user.touchmed</string>
+    <key>Program</key>
+    <string>/Users/<changeme>/.gnupg/touchmed.sh</string>
+    <key>Sockets</key>
+    <dict>
+      <key>gpg-agent-log</key>
+      <dict>
+        <key>SockPathName</key>
+        <string>/Users/<changeme>/.gnupg/S.scdaemon.log</string>
+      </dict>
+    </dict>
+    <key>inetdCompatibility</key>
+    <dict>
+      <key>Wait</key>
+      <false/>
+    </dict>
+  </dict>
+</plist>
